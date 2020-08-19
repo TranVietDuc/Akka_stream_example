@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40142088-00ce-4fbf-9f87-575e05bbb5e3" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fLIUZxS30lYztWExFPqS7bUiXd" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Restart">
+    <configuration name="Restart" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Restart" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalaTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ScalaTest" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupervisionStrategies" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="SupervisionStrategies" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRecover" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestRecover" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRecoverWith" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestRecoverWith" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Restart" />
+        <item itemvalue="Application.SupervisionStrategies" />
+        <item itemvalue="Application.TestRecoverWith" />
+        <item itemvalue="Application.TestRecover" />
+        <item itemvalue="Application.ScalaTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="test_akka_family" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="test_akka_family [file:/Users/duc_tv/Desktop/P4T/test_akka_family/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="test_akka_family-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="1973294753" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../scheduled-batch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Project_Book/book-management-back-end" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Real_Book/backend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ddd-playframework-scala-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../time_sheet/backend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../time_sheet/test_batch/akka-quartz-scheduler-play-demo" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40142088-00ce-4fbf-9f87-575e05bbb5e3" name="Default Changelist" comment="" />
+      <created>1595990962368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595990962368</updated>
+      <workItem from="1595990965633" duration="21609000" />
+      <workItem from="1596190515087" duration="1624000" />
+      <workItem from="1596419637474" duration="3678000" />
+      <workItem from="1596532887244" duration="881000" />
+      <workItem from="1596606272078" duration="6001000" />
+      <workItem from="1596678332463" duration="15215000" />
+      <workItem from="1596766071723" duration="2870000" />
+      <workItem from="1597116894580" duration="3299000" />
+      <workItem from="1597196956997" duration="895000" />
+      <workItem from="1597304263147" duration="452000" />
+      <workItem from="1597810780938" duration="6706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test_akka_family$AkkaStream.ic" NAME="AkkaStream Coverage Results" MODIFIED="1596189553401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
