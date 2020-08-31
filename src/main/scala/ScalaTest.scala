@@ -46,3 +46,17 @@ object ScalaTest extends App {
 
 
 }
+
+object GfG extends App
+{
+    // Creating an Iterator
+    val iter = Iterator(7, 3, 5, 11, 13)
+
+    // Applying exists method
+    val result = iter.exists( x => {x > 6})
+
+    // Displays output
+    println(result)
+
+
+}

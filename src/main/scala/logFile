@@ -1,0 +1,5 @@
+Streaming transport protocols like TCP only pass streams of bytes, and does not know what is a logical chunk of bytes from the application’s point of view.
+Often when implementing network protocols you will want to introduce your own framing.
+This can be done in two ways: An end-of-frame marker, e.g. end line \n, can do framing via Framing.delimiter.
+Or a length-field can be used to build a framing protocol.
+There is a bidi implementing this protocol provided by Framing.simpleFramingProtocol, see ScalaDoc for more information.

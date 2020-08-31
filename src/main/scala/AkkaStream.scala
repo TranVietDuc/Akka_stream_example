@@ -1,20 +1,15 @@
+import java.io.File
+import java.nio.file.Paths
 import java.util.concurrent.{Executors, TimeUnit}
 
-import AkkaStream.getClass
-import Balance_1.getClass
-import Broadcast_1.getClass
 import SampleData._
 import akka.NotUsed
 import akka.actor.ActorSystem
 import akka.event.Logging
-import akka.http.scaladsl.Http
-import akka.http.scaladsl.model.HttpRequest
-import akka.http.scaladsl.model.sse.ServerSentEvent
-import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.Attributes.LogLevels
-import akka.stream.javadsl.RestartSource
+import akka.stream.scaladsl.Tcp.{IncomingConnection, ServerBinding}
+import akka.stream.scaladsl.{Balance, Broadcast, FileIO, Flow, Framing, GraphDSL, Keep, Merge, Partition, RunnableGraph, Sink, Source, Tcp}
 import akka.stream.{ActorAttributes, Attributes, ClosedShape, Supervision}
-import akka.stream.scaladsl.{Balance, Broadcast, Flow, GraphDSL, Keep, Merge, Partition, RunnableGraph, Sink, Source}
 import akka.util.ByteString
 import org.slf4j.LoggerFactory
 
@@ -51,19 +46,18 @@ object AkkaStream extends App {
     logger.info(s"Insert keyword ${keyword.name}")
     fakeInsert(s"Insert keyword ${keyword.name}")
   })
-  //val start = System.nanoTime()
 
-//
-//  source via accountFlow mapConcat identity via campaignFlow mapConcat identity via keywordFlow runWith Sink.ignore onComplete{
-//    case Success(_) =>
-//      println("Stream completed successfully")
-//      system.terminate()
-//      val end = System.nanoTime()
-//      println(s"Time taken: ${(end - start) / 1000 / 1000/ 1000} s")
-//    case Failure(error) =>
-//      println(s"Stream failed with error ${error.getMessage}")
-//      system.terminate()
-//  }
+  //val start = System.nanoTime()
+  ////  source via accountFlow mapConcat identity via campaignFlow mapConcat identity via keywordFlow runWith Sink.ignore onComplete{
+  ////    case Success(_) =>
+  ////      println("Stream completed successfully")
+  ////      system.terminate()
+  ////      val end = System.nanoTime()
+  ////      println(s"Time taken: ${(end - start) / 1000 / 1000/ 1000} s")
+  ////    case Failure(error) =>
+  ////      println(s"Stream failed with error ${error.getMessage}")
+  ////      system.terminate()
+  ////  }
 
   def currentSecond = System.currentTimeMillis() / 1000
   def f1(x: Int) = {
@@ -128,7 +122,7 @@ source_2.run()
 }
 
 object AkkaCombineSource extends App {
-  import akka.stream.scaladsl.{Concat, Source}
+  import akka.stream.scaladsl.Source
 
   implicit val system = ActorSystem("reactive-tweets")
   val s1 = Source(List(1,3,5,7))
@@ -377,7 +371,6 @@ object TestRecoverWith extends App {
 
 object DelayedRestart extends App {
   implicit val system = ActorSystem("reactive-tweets12")
-  import java.time.Duration
 
 //  val restartSource = RestartSource.withBackoff(
 //    maxBackoff = Duration.ofSeconds(3),
@@ -440,6 +433,67 @@ object Restart extends App {
 }
 
 object IOTest1 extends App {
-  Tcp()
+  implicit val system = ActorSystem("reactive-tweets12")
+
+  val host = "127.0.0.1"
+  val port = 8080
+  val connections: Source[IncomingConnection, Future[ServerBinding]] =
+    Tcp().bind(host, port)
+  connections.runForeach { connection =>
+    println(s"New connection from: ${connection.remoteAddress}")
+
+    val echo = Flow[ByteString]
+      .via(Framing.delimiter(ByteString("\n"), maximumFrameLength = 256, allowTruncation = true))
+      .map(_.utf8String)
+      .map(_ + "!!!\n")
+      .map(ByteString(_))
+
+    connection.handleWith(echo)
+  }
 }
 
+object IOReadFile extends App {
+  implicit val system = ActorSystem("reactive-tweets12")
+//val logFile = new File("src/logFile.txt")
+
+  val file = Paths.get("/Users/duc_tv/Desktop/P4T/test_akka_family/src/main/scala/logFile")
+
+  val source = FileIO.fromPath(file)
+
+  // parse  chucks of bytes into line
+  val flow = Framing.delimiter(ByteString(System.lineSeparator()), maximumFrameLength = 512, allowTruncation = true).map(_.utf8String)
+
+  val sink = Sink.foreach(println)
+
+  source.via(flow).runWith(sink)
+}
+
+object IOWriteFIle extends App {
+  implicit val system = ActorSystem("reactive-tweets12")
+
+  val source = Source(1 to 10000)
+
+  val outputPath = Paths.get("/Users/duc_tv/Desktop/P4T/test_akka_family/src/main/scala/logFile_1")
+
+  val fileSink = FileIO.toPath(outputPath)
+
+  val consoleSink = Sink.foreach(println)
+
+  val flow = Flow[Int].map(num => ByteString(num.toString))
+
+
+  val graph = RunnableGraph.fromGraph(GraphDSL.create() { implicit b =>
+    import GraphDSL.Implicits._
+    // broadcaster to broadcast list elements[(String, Int)] with two streams
+    val broadcaster = b.add(Broadcast[Int](2))
+    // source directs to broadcaster
+    source ~> broadcaster.in
+    // broadcast list element with two streams
+    //  1. to name sink
+    //  2. to rate sink
+    broadcaster.out(0) ~> flow ~> fileSink
+    broadcaster.out(1) ~> consoleSink
+
+    ClosedShape
+  }).run()
+}

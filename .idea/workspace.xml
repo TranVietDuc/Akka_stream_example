@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40142088-00ce-4fbf-9f87-575e05bbb5e3" name="Default Changelist" comment="" />
+    <list default="true" id="40142088-00ce-4fbf-9f87-575e05bbb5e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/logFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/logFile_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/AkkaStream.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AkkaStream.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ScalaTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ScalaTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaCombineSource$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaCombineSource$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaCombineSource$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaCombineSource$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaGroupedSource$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaGroupedSource$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaGroupedSource$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaGroupedSource$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream_1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream_1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream_1$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/AkkaStream_1$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$Idol$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$Idol$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$Idol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$Idol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Balance_1$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$Idol$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$Idol$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$Idol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$Idol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Broadcast_1$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/DelayedRestart$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/DelayedRestart$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/DelayedRestart$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/DelayedRestart$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/GroupBy$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/GroupBy$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/GroupBy$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/GroupBy$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$User$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$User$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/MapASync$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MapConcat$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/MapConcat$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/MapConcat$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/MapConcat$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Arg$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Arg$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Arg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Arg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Result$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Result$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_1$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_2$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Partition_2$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Restart$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Restart$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/Restart$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/Restart$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SupervisionStrategies$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/SupervisionStrategies$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/SupervisionStrategies$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/SupervisionStrategies$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestLog$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestLog$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestLog$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestLog$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecover$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecover$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecover$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecover$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecover$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecover$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecoverWith$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecoverWith$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecoverWith$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecoverWith$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecoverWith$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/TestRecoverWith$delayedInit$body.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +81,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1fLIUZxS30lYztWExFPqS7bUiXd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
     <property name="settings.editor.selected.configurable" value="file.status.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,16 +116,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Restart">
-    <configuration name="Restart" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Restart" />
+  <component name="RunManager" selected="Application.IOWriteFIle">
+    <configuration name="IOReadFile" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="IOReadFile" />
       <module name="test_akka_family" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ScalaTest" />
+    <configuration name="IOTest1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="IOTest1" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOWriteFIle" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="IOWriteFIle" />
+      <module name="test_akka_family" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Restart" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Restart" />
       <module name="test_akka_family" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,27 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRecover" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestRecover" />
-      <module name="test_akka_family" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRecoverWith" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestRecoverWith" />
-      <module name="test_akka_family" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOWriteFIle" />
+        <item itemvalue="Application.IOReadFile" />
+        <item itemvalue="Application.IOTest1" />
         <item itemvalue="Application.Restart" />
         <item itemvalue="Application.SupervisionStrategies" />
-        <item itemvalue="Application.TestRecoverWith" />
-        <item itemvalue="Application.TestRecover" />
-        <item itemvalue="Application.ScalaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +189,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3193810289491" />
         <entry key="$PROJECT_DIR$/build.sbt" value="1973294753" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="87871327" />
       </map>
@@ -157,12 +225,28 @@
       <workItem from="1597116894580" duration="3299000" />
       <workItem from="1597196956997" duration="895000" />
       <workItem from="1597304263147" duration="452000" />
-      <workItem from="1597810780938" duration="6706000" />
+      <workItem from="1597810780938" duration="9318000" />
+      <workItem from="1597903768167" duration="122000" />
+      <workItem from="1598339597761" duration="941000" />
+      <workItem from="1598868196721" duration="3228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test_akka_family$AkkaStream.ic" NAME="AkkaStream Coverage Results" MODIFIED="1596189553401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
